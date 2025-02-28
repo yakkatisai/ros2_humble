@@ -1,0 +1,27 @@
+1. #########################################################################  ERROR ################################################################################################################################
+
+                                                [INFO] [launch]: All log files can be found below /home/sai/.ros/log/2025-03-01-00-52-56-309879-sai-OMEN-13561
+                                                [INFO] [launch]: Default logging verbosity is set to INFO
+                                                [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+                                                 - ModuleNotFoundError: No module named 'xacro'
+                                                 - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
+
+                                                                                              SOLUTION
+
+                                                                                1. sudo apt install -y ros-humble-xacro
+  #################################################################################################################################################################################################################
+
+                                                                                              
+2. ####################################################################### ERROR ################################################################################################################################
+                                                                                              
+                                               [INFO] [launch]: All log files can be found below /home/sai/.ros/log/2025-03-01-00-54-26-115655-sai-OMEN-13784
+                                              [INFO] [launch]: Default logging verbosity is set to INFO
+                                              [ERROR] [launch]: Caught exception in launch (see debug for traceback): "package 'joint_state_publisher' not found, searching: ['/home/sai/roverros2_ws/install/k1_description', '/home/sai/roverros2_ws/install/k12_description', '/home/sai/roverros2_ws/install/fin_description', '/home/sai/roverros2_ws/install/ev1_description', '/home/sai/roverros2_ws/install/ev12_description', '/opt/ros/humble']"
+                                                                                                                                           
+                                                                                            SOLUTION
+
+                                                                                2. sudo apt install -y ros-humble-joint-state-publisher
+
+################################################################################################################################################################################################################
+
+                                                                                            
